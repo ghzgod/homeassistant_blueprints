@@ -89,8 +89,7 @@ blueprint:
       description: Select a signal service that you have configured (if any)
       default: false
       selector:
-        device:
-          integration: signal_messenger
+        select:
     notify_group:
       name: Notification Group or Android/Fire TV (Optional)
       description: |
