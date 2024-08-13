@@ -90,6 +90,8 @@ blueprint:
       default: false
       selector:
         select:
+          options:
+            - "notify.signal"
     notify_group:
       name: Notification Group or Android/Fire TV (Optional)
       description: |
